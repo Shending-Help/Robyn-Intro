@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Robyn-open source async web framework</title>
+    <meta
+      name="description"
+      content="Robyn is an async Python backend server with a runtime written in Rust."
+    />
+
+    <!--Google font-->
+    <link
+      href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800"
+      rel="stylesheet"
+    />
+
+    <!-- CSS / Color Scheme -->
+    <link rel="stylesheet" href="../static/css/main.css" />
+  </head>
+  <body>
+    <!--Header Section-->
+    <section class="bg-gradient pt-5 pb-6">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 d-flex flex-row align-items-center justify-content-between"
+          >
+            <div class="heading-brand">Robyn</div>
+            <a
+              href="https://sansyrox.github.io/robyn/#/"
+              class="btn btn-dark"
+              target="_blank"
+              >Documentaion</a
+            >
+          </div>
+        </div>
+        <div class="row mt-6">
+          <div class="col-md-8 mx-auto text-center">
+            <h1>Backend server written in rust btw</h1>
+            <p class="lead mb-5">
+              Robyn is an async Python backend server with a runtime written in
+              Rust.
+            </p>
+            <a
+              href="https://github.com/sansyrox/robyn"
+              class="btn btn-success svg-icon"
+            >
+              <em class="mr-2" data-feather="github"></em>
+              Contribute
+            </a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-9 mx-auto">
+            <div class="code-window">
+              <div class="dots">
+                <div class="red"></div>
+                <div class="orange"></div>
+                <div class="green"></div>
+              </div>
+              <pre
+                class="language-javascript line-numbers"
+              ><code class="language-javascript">
+from robyn import Robyn
+
+app = Robyn(__file__)
+                
+@app.get("/")
+async def h(request):
+    return "Hello, world!"
+                
+app.start(port=5000)</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Features Section-->
+    <section class="py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2 class="text-center text-md-left">
+              Reasons Why People Love <span class="text-success">Robyn</span>
+            </h2>
+            <div class="row feature-grid">
+              <div class="col-sm-6">
+                <div class="media">
+                  <div class="icon-box">
+                    <div class="icon-box-inner">
+                      <span
+                        data-feather="check-circle"
+                        width="28"
+                        height="28"
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="media-body">A simple API</div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="media">
+                  <div class="icon-box">
+                    <div class="icon-box-inner">
+                      <span
+                        data-feather="command"
+                        width="28"
+                        height="28"
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="media-body">A multithreaded Runtime</div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="media">
+                  <div class="icon-box">
+                    <div class="icon-box-inner">
+                      <span
+                        data-feather="feather"
+                        width="28"
+                        height="28"
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="media-body">Written in Rust, btw xD</div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="media">
+                  <div class="icon-box">
+                    <div class="icon-box-inner">
+                      <span data-feather="zap" width="28" height="28"></span>
+                    </div>
+                  </div>
+                  <div class="media-body">A multithreaded Runtime</div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="media">
+                  <div class="icon-box">
+                    <div class="icon-box-inner">
+                      <span
+                        data-feather="git-pull-request"
+                        width="28"
+                        height="28"
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="media-body">Extensible</div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="media">
+                  <div class="icon-box">
+                    <div class="icon-box-inner">
+                      <span
+                        data-feather="droplet"
+                        width="28"
+                        height="28"
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="media-body">Under active development!</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Used By Section-->
+    <section class="pb-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2 class="text-center text-md-left">Sponsors</h2>
+            <p class="lead text-muted">
+              These sponsors help us make the magic happen!
+            </p>
+            <div
+              class="mt-5 d-flex flex-row justify-content-md-between flex-wrap press-icons"
+            >
+              <img
+                src="https://logo.clearbit.com/digitalocean.com?size=60"
+                alt="Digital Ocean"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer class="py-5 bg-light">
+      <div class="container">
+        <div class="row my-2">
+          <div class="col-md-4 mx-auto text-muted text-center small-xl">
+            &copy; 2022 Robyn - All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
