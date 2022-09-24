@@ -12,3 +12,15 @@ and how to contribute to the project and how to use it.
 - Robyn the web server we use to run the landing page
 - Python the language we use to write the code
 - HTML and CSS to structure and style the landing page
+
+# Installation
+
+you need to have python installed on your machine to run the project and to have pip installed to install the dependencies
+
+- clone the project
+- cd into the project
+- install robyn using pip `pip install robyn`
+
+# Usage
+
+- run the project using `python3 app.py --dev`
