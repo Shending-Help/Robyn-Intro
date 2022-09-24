@@ -1,13 +1,3 @@
-/*!
-* Created by Kroplet (https://www.kroplet.com) 
-* The easiest way to create Bootstrap 4 themes. 
-*/
-
-/*!
-* Bootstrap v4.1.0 (https://getbootstrap.com) 
-* Copyright 2011-2017 The Bootstrap Authors 
-* Copyright 2011-2017 Twitter, Inc. 
-* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
 :root {
   --blue: #0000ff;
   --indigo: #3d5afe;
@@ -6726,8 +6716,8 @@ a.text-dark:focus {
 }
 
 /*****************
-  Custom CSS
-  *****************/
+    Custom CSS
+    *****************/
 ::-moz-selection {
   background-color: #ffff00;
   color: #000000;
@@ -6867,11 +6857,6 @@ footer a {
   background-color: #5cc72a;
 }
 
-/**
-   * okaidia theme for JavaScript, CSS and HTML
-   * Loosely based on Monokai textmate theme by http://www.monokai.nl/
-   * @author ocodia
-   */
 code[class*="language-"],
 pre[class*="language-"] {
   color: #000000;
