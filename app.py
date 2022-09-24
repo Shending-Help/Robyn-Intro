@@ -4,6 +4,6 @@ app = Robyn(__file__)
 
 @app.get("/")
 async def h(request):
-    return static_file("./index.html")
+    return static_file("templates/index.html")
 
 app.start(port=5000)
